@@ -222,3 +222,8 @@
     margin-top: 80px;
   }
 }
+
+.but {
+  display: flex;
+  gap: 10px;
+}
