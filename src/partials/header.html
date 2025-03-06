@@ -1,19 +1,33 @@
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+  <div class="container header-container">
+    <a href="" class="logo"
+      >Lloyd<span class="logo-header-span">Jefferson.</span></a
+    >
+
+    <div class="switch-container">
+      <label id="switch" class="switch">
+        <input type="checkbox" id="slider" />
+        <span class="slider round overlay"></span>
+      </label>
+    </div>
+
+    <nav class="navigation">
+      <ul class="nav-list-head">
+        <li class="nav-item-head">
+          <a href="#about" class="hover-link">About me</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="nav-item-head">
+          <a href="#projects" class="hover-link">Projects</a>
+        </li>
+        <li class="nav-item-head">
+          <a href="#contacts" class="hover-link">Contacts</a>
         </li>
       </ul>
     </nav>
+    <button type="button" class="burger-btn">
+      <svg class="icon-burger" width="22" height="16">
+        <use href="./img/svg-icons/symbol-defs.svg#icon-burger"></use>
+      </svg>
+    </button>
   </div>
 </header>
